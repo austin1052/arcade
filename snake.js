@@ -107,7 +107,6 @@ function makeFood() {
   while (gameBoard[newFoodRow][newFoodCol] !== "") {
     newFoodRow = Math.floor(Math.random() * 31);
     newFoodCol = Math.floor(Math.random() * 31) + 1;
-    console.log("it worked!");
   }
   gameBoard[newFoodRow][newFoodCol] = "x";
 }
@@ -228,7 +227,6 @@ function buildHighScores() {
   console.log(highScores.length);
   if (highScores.length > 5) {
     highScores = highScores.slice(0, 5);
-    console.log(highScores);
   }
   localStorage.setItem("highScores", JSON.stringify(highScores));
 }
@@ -253,7 +251,6 @@ function newHighScore(score, highScores) {
   if (score > highScores[highScores.length - 1][1]) {
     let player = prompt("New High Score! Enter your name:");
     highScores.push([player, score]);
-    console.log(highScores);
     buildHighScores();
   }
 }
