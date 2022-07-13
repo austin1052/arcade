@@ -24,15 +24,15 @@ main {
 
 .game {
   background: black;
-  height: 50rem;
-  width: 50rem;
+  height: 40rem;
+  width: 40rem;
 }
 
 /* start screen */
 
 .start-screen.open {
   position: absolute;
-  top: 20rem;
+  top: 15.5rem;
   left: 0;
   right: 0;
   display: flex;
