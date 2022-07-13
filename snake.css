@@ -65,8 +65,7 @@ main {
   border: none;
   font-size: 2rem;
   color: #d4d4d4;
-  border-radius: 10px;
-  box-shadow: 3px 3px 8px black;
+  box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
 }
 
 .directions {
@@ -85,8 +84,7 @@ main {
   background: #b43c3c;
   color: #d4d4d4;
   border: none;
-  border-radius: 6px;
-  box-shadow: 3px 3px 8px black;
+  box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
 }
 /* snake */
 
@@ -143,8 +141,7 @@ main {
   background: #b43c3c;
   color: #d4d4d4;
   border: none;
-  border-radius: 6px;
-  box-shadow: 3px 3px 8px black;
+  box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
 }
 
 /*  game over  */
@@ -180,8 +177,7 @@ main {
   background: #359b65;
   color: #d4d4d4;
   border: none;
-  border-radius: 6px;
-  box-shadow: 3px 3px 8px black;
+  box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
 }
 
 .final-score div {
